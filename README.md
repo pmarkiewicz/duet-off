@@ -9,4 +9,12 @@ All configuration is in python script.
 
 
 To run on raspberry pi be sure to install local mDNS client:
-sudo apt-get install libnss-mdns
+```sudo apt-get install libnss-mdns```
+
+It require python 3 with extenal dependency requests installed.
+
+So on raspberry pi:
+```sudo apt install python3 python3-pip
+pip3 install requests
+```
+
