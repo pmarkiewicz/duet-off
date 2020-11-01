@@ -6,3 +6,7 @@ Power is disable when target temperature is set to -1 and real temeperature is b
 Run from cron every 5 minutes.
 
 All configuration is in python script.
+
+
+To run on raspberry pi be sure to install local mDNS client:
+sudo apt-get install libnss-mdns
